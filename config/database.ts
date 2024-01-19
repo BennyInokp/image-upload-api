@@ -1,8 +1,8 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose"
 
 const database = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:8000/image-upload', {
+    await mongoose.connect('mongodb://localhost:5000/image-upload', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

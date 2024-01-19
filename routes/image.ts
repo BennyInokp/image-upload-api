@@ -1,3 +1,4 @@
+
 // routes/imageRoutes.ts
 import { Router } from 'express';
 import { uploadImage, getImage } from '../controllers/image';
